@@ -1,0 +1,21 @@
+.cuadro{
+    padding: 50px;
+    background-color: black;
+}
+
+.titulo{
+    position: relative;
+    top: -130px;
+    left: 350px;
+    width: 450px;
+    direction: rtl;
+    font-family: Times New Roman;
+    font-size: 50px;
+    color: white;
+    font-style: oblique;
+    background-color: black;
+}
+.links{
+    position: relative;
+    left: 250px;
+}
