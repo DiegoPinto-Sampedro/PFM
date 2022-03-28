@@ -1,0 +1,9 @@
+
+I was able to stop via this on Windows for Angular 8:
+
+Step 1: Find 4200 process
+
+netstat -ano | findstr :4200
+Step 2: Kill that process:
+
+taskkill /PID <PID> /F       <numerodeprocesosincorchetes>
