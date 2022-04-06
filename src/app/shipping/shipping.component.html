@@ -1,0 +1,10 @@
+<h3>Carrito</h3>
+<p>
+  <a routerLink="/shipping">Tipo de envio</a>
+</p>
+
+<div class="shipping-item" *ngFor="let shipping of shippingCosts | async">
+  <span>{{ shipping.type }}</span>
+  <span>{{ shipping.price | currency : "EUR" }}</span>
+</div>
+<a routerLink="/cart" class="button fancy-button"><strong>Volver al carro</strong></a>

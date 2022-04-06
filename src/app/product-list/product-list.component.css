@@ -1,0 +1,29 @@
+.producto{
+  width:300px;
+  height: 300px;
+  margin: 40px;
+  float:left;
+}
+  
+  .imgProducto{
+  width: 120px;
+  height: 120px;
+ position: left;
+ 
+
+  }
+  
+  .precio{
+  width: 100px;
+  color: red;
+  background-color: rgb(219, 168, 168);
+  display: flex;
+  border-radius: 7px;
+  margin-left: 1%;
+  }
+ 
+.des{
+  margin-left: 1%;
+  margin-right: 58%;
+
+}

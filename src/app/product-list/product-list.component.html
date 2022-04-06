@@ -1,0 +1,21 @@
+<h2>Productos</h2>
+
+<div class="producto" *ngFor="let product of products">
+<h3>
+<a [title]="product.name + ' details'"
+[routerLink]="['/products', product.id]">
+{{ product.name }}
+</a>
+</h3>
+<app-product-alerts
+[product]="product"
+  (notify)="onNotify()">
+</app-product-alerts>
+<img class="imgProducto" src='../assets/product/{{product.picture}}'>
+<p class="des"*ngIf="product.description">
+ <strong>Descripcion:</strong> {{ product.description }}
+ </p>
+<span class='precio'><strong>Precio:</strong>{{product.price }}€  </span>
+
+</div>
+

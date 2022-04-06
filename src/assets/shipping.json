@@ -1,0 +1,14 @@
+[
+  {
+    "type": "Muy Urgente",
+    "price": 25.99
+  },
+  {
+    "type": "2 dias",
+    "price": 9.99
+  },
+  {
+    "type": "7 dias",
+    "price": 2.99
+  }
+]
